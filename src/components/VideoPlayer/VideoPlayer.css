@@ -1,0 +1,8 @@
+.video__player{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1360px;
+    align-items: center;
+    overflow: hidden;
+}

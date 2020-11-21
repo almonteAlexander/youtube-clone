@@ -1,0 +1,6 @@
+.comments__container{
+    width: 95%;
+    max-width: 1360px;
+    overflow-wrap: anywhere;
+    color: white;
+}

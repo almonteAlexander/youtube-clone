@@ -1,0 +1,33 @@
+.search__control{
+    position: relative;
+    display: flex;
+    height: 28px;
+    width: 70%;
+    max-width: 700px;
+    align-items: center;
+}
+.search__input{
+    height: 100%;
+    width: 80%;
+    padding-left: 0.5em;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 15px;
+}
+.search__button{
+    height: 115% !important;
+    width: 20% !important;
+    max-width: 100px !important;
+    background: white !important;
+    border-radius: 0 !important;
+}
+
+@media screen and (max-width: 520px){
+    .search__control{
+        height: 25px;
+        width: 80%;
+        margin-right: 0.2em;
+    }
+    .search__button{
+        height: 116.1% !important;
+    }
+}

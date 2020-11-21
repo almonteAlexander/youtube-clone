@@ -1,0 +1,22 @@
+.search__header{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #272727;
+}
+.youtube__logo{
+    height: 100%;
+    width: 100px;
+    margin: 0 1em;
+}
+
+@media screen and (max-width: 520px){
+    .youtube__logo{
+        width: 75px;
+    }
+    .search__header{
+        justify-content: unset;
+    }
+}

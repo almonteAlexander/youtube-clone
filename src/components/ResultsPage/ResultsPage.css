@@ -1,0 +1,12 @@
+.results__main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1360px;
+    margin: 1em auto;
+    justify-content: center;
+}
+.loading__component{
+    align-self: center;
+    justify-content: center;
+}

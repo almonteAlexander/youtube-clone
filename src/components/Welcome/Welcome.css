@@ -1,0 +1,10 @@
+.search__welcome{
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    align-items: center;
+}
+.welcome__text, .welcome__subtitle{
+    color: white;
+    line-height: 1.5em;
+}

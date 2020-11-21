@@ -1,0 +1,13 @@
+.search__history{
+    position: absolute;
+    top: 44px;
+    left: 0;
+    max-height: 250px;
+    width: 81%;
+    padding: 0.8em 0;
+    background: white;   
+    border: 1px solid gray;
+    outline: none;
+    overflow-y: scroll;
+    z-index: 1000;
+}

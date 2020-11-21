@@ -1,0 +1,7 @@
+.playlist{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1360px;
+    justify-content: center;
+}
